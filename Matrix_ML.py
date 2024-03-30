@@ -1,0 +1,16 @@
+import numpy as np
+P=np.array([[1,3],[4,6],[4,6]])
+P
+Q=np.array([[4,5],[5,9],[6,8]])
+print(Q)
+Result=np.add(P,Q)
+print(Result)
+Result2=np.subtract(P,Q)
+print(Result2)
+R=np.array([[1,2,3],[6,-2,-4]])
+cal1=np.dot(P,R)
+print(cal1)
+det1=np.linalg.det(cal1)
+T=np.array([[1,4],[3,6]])
+inv_t=np.linalg.inv(T)
+print(np.dot(T,inv_t))
